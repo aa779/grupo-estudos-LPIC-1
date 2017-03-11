@@ -30,14 +30,14 @@ $ sudo apt-get install virtualbox-5.1
 
 ```bash
 $ cd Downloads
-$ wget -q https://releases.hashicorp.com/vagrant/1.9.2/vagrant_1.9.2_x86_64.deb
+$ wget https://releases.hashicorp.com/vagrant/1.9.2/vagrant_1.9.2_x86_64.deb
 $ sudo dpkg -i vagrant_1.9.2_x86_64.deb
 ```
 
 * verificar instalação:
 
 ```bash
-$ vagrant -v                
+$ vagrant -v
 ```
 
 #### Preparar as pastas
@@ -54,13 +54,13 @@ $ mkdir -p ~/lpic-1/debian/jessie64
 1. arquivo Vagrantfile da box centos/7:
 
 ```bash
-https://github.com/aledruetta/grupo-estudos-LPIC-1/blob/master/centos/Vagrantfile
+$ wget https://raw.githubusercontent.com/aledruetta/grupo-estudos-LPIC-1/blob/master/centos/Vagrantfile -O ~/lpic-1/centos/7/Vagrantfile
 ```
 
 2. arquivo Vagrantfile da box debian/jessie64:
 
 ```bash
-https://github.com/aledruetta/grupo-estudos-LPIC-1/blob/master/debian/Vagrantfile
+$ wget https://raw.githubusercontent.com/aledruetta/grupo-estudos-LPIC-1/blob/master/debian/Vagrantfile -O ~/lpic-1/debian/jessie64/Vagrantfile
 ```
 
 ### Inicializar as máquinas virtuais
