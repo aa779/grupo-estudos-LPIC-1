@@ -63,16 +63,6 @@ $ wget https://raw.githubusercontent.com/aledruetta/grupo-estudos-LPIC-1/blob/ma
 $ wget https://raw.githubusercontent.com/aledruetta/grupo-estudos-LPIC-1/blob/master/debian/Vagrantfile -O ~/lpic-1/debian/jessie64/Vagrantfile
 ```
 
-### Inicializar as máquinas virtuais
-
-```bash
-$ cd ~/lpic-1/centos/7
-$ vagrant init centos/7
-
-$ cd ~/lpic-1/debian/jessie64
-$ vagrant init debian/jessie64
-```
-
 ### Plugin VirtualBox Guest Additions
 
 * Em cada uma das pastas onde está o arquivo Vagrantfile:
