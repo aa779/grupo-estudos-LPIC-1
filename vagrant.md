@@ -28,10 +28,17 @@ $ sudo apt-get install virtualbox-5.1
 
 * Verificar número de versão antes de executar os comandos:
 
+#### Para 64 bits
 ```bash
 $ cd Downloads
 $ wget https://releases.hashicorp.com/vagrant/1.9.2/vagrant_1.9.2_x86_64.deb
 $ sudo dpkg -i vagrant_1.9.2_x86_64.deb
+```
+#### Para 32 bits
+```bash
+$ cd Downloads
+$ wget https://releases.hashicorp.com/vagrant/1.9.2/vagrant_1.9.2_i686.deb
+$ sudo dpkg -i vagrant_1.9.2_i686.deb
 ```
 
 * verificar instalação:
